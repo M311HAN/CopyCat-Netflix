@@ -1,5 +1,7 @@
 # CopyCat-Netflix
 
+[Check out the live site here!](https://m311han.github.io/CopyCat-Netflix/)
+
 ## Description
 
 CopyCat-Netflix is a cloned version of the Netflix sign-in page that I've created to demonstrate my abilities in HTML, SCSS, and live SASS. This project was made to showcase my frontend skills and my capability to recreate intricate web designs. The replica is designed to be responsive and user-friendly. If you're a potential employer, a fellow developer, or anyone interested in knowing more about my frontend development journey, this project will offer you a glimpse of my proficiency in these domains.
