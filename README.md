@@ -10,6 +10,7 @@ CopyCat-Netflix is a cloned version of the Netflix sign-in page that I've create
 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
+- [Containerisation](#Containerisation)
 - [Usage](#usage)
 - [Credits](#credits)
 
@@ -41,6 +42,21 @@ cd CopyCat-Netflix
 
 # Open the index.html file in a web browser
 ```
+
+##Containerization
+
+The CopyCat-Netflix sign-in page has been containerized using Docker to ensure that it runs consistently across any environment. Whether you're a developer looking to run this project on your local machine or planning to deploy it on a server, using the provided Docker configuration will streamline the process.
+
+```bash
+# Make sure Docker is installed on your system.
+
+# Navigate to the project directory and build the Docker image:
+docker build --platform linux/amd64 -t melihhan/copycat-netflix .
+
+# Run the Docker container:
+docker run -p 8080:80 melihhan/copycat-netflix
+```
+This will start the website inside a Docker container, and it can be accessed via a browser at http://localhost:8080 in your browser.
 
 ## Usage
 
