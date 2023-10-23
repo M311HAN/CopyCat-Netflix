@@ -43,7 +43,7 @@ cd CopyCat-Netflix
 # Open the index.html file in a web browser
 ```
 
-##Containerization
+## Containerisation
 
 The CopyCat-Netflix sign-in page has been containerized using Docker to ensure that it runs consistently across any environment. Whether you're a developer looking to run this project on your local machine or planning to deploy it on a server, using the provided Docker configuration will streamline the process.
 
